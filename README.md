@@ -25,8 +25,7 @@
 
 | Project | What it is | Status |
 |---|---|---|
-| **postgres-replication-lab** | Docker Compose lab: primary + standby, failover, backup & restore | 🔨 in progress |
-| **linux-ops-toolkit** | Bash health checks (disk, certificates, users) with ShellCheck CI | 📝 planned |
+| **[linux-ops-runbooks](https://github.com/ihebooo/linux-ops-runbooks)** | 13 runbooks from real operations, Bash health checks with ShellCheck CI, and a PostgreSQL primary/standby lab (failover tested in CI) | ✅ live |
 | **ansible-rhel-baseline** | Harden and provision a RHEL-compatible server with Ansible | 📝 planned |
 | **dns-cache-lab** | Local Unbound DNS cache — measuring how much query load it removes | 📝 planned |
 | **rhcsa-notes** | My notes and exercises while preparing for the RHCSA | 📝 planned |
