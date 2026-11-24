@@ -26,7 +26,8 @@
 | Project | What it is | Status |
 |---|---|---|
 | **[linux-ops-runbooks](https://github.com/ihebooo/linux-ops-runbooks)** | 13 runbooks from real operations, Bash health checks with ShellCheck CI, and a PostgreSQL primary/standby lab (failover tested in CI) | ✅ live |
-| **[pg-health-report](https://github.com/ihebooo/pg-health-report)** | One read-only Bash script that reports PostgreSQL health (cache, connections, bloat, vacuum, indexes, replication) — CI against PostgreSQL 16 | 🚧 in progress |
+| **[pg-health-report](https://github.com/ihebooo/pg-health-report)** | One read-only Bash script that reports PostgreSQL health (cache, connections, bloat, vacuum, indexes, replication) — CI against PostgreSQL 16 | ✅ v0.1.0 |
+| **[linux-db-tuning-check](https://github.com/ihebooo/linux-db-tuning-check)** | Read-only Bash check of a Linux host's kernel/OS settings for a database server (swappiness, THP, I/O scheduler, ulimits) with OK / WARN / CRIT hints | 🚧 in progress |
 | **ansible-rhel-baseline** | Harden and provision a RHEL-compatible server with Ansible | 📝 planned |
 | **dns-cache-lab** | Local Unbound DNS cache — measuring how much query load it removes | 📝 planned |
 | **rhcsa-notes** | My notes and exercises while preparing for the RHCSA | 📝 planned |
